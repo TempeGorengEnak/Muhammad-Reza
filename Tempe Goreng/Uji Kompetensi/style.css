@@ -1,0 +1,74 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:gray;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .button {
+display: flex;
+color: white;
+gap: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: auto;
+}
+
+.header .button a {
+    color: white;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+.header .button a:hover {
+    text-decoration: underline;
+}
+
+.judul {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.judul h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.judul .button {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.judul .button a {
+    color: gray;
+    text-decoration: none;
+}
+
+.judul .button a:hover {
+    text-decoration: underline;
+}
+
+.judul .button span {
+margin: 0 10px;
+}
